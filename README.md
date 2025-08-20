@@ -55,6 +55,7 @@ viii. Click "Next" through the remaining steps until you reach "Finish."
 
 ### Step - 3
 i. Now lets assign the DHCP IP address to our machine , for this type this command
+
 <img width="419" height="235" alt="Capture12" src="https://github.com/user-attachments/assets/7eb7aae0-8552-42f1-9870-bde264cd670a" />
 
 ii. Go to "Network Properties," select your network adapter, then click on "Internet Protocol Version 4 (TCP/IPv4)."
