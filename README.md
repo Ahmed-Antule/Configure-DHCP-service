@@ -6,11 +6,11 @@ A DHCP server is a network service that automatically provides IP addresses and 
 
 ### Key Benefits:
 
-Automatic IP Assignment – Reduces manual work and prevents IP conflicts.
+1. Automatic IP Assignment – Reduces manual work and prevents IP conflicts.
 
-Lease Time Management – IP addresses are assigned temporarily (lease) and can be renewed.
+2. Lease Time Management – IP addresses are assigned temporarily (lease) and can be renewed.
 
-Centralized Configuration – All network settings can be managed from one server.
+3. Centralized Configuration – All network settings can be managed from one server.
 
 ### How It Works
 
