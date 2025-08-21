@@ -1,16 +1,29 @@
 # Configure-DHCP-service
 
-Dynamic Host Configuration Protocol (DHCP) – Automated IP Address Management DHCP (Dynamic Host Configuration Protocol) is a network management protocol that automatically assigns IP addresses, subnet masks, default gateways, and DNS settings to devices on a network. This eliminates the need for manual IP configuration, ensuring efficient and conflict-free network management.
+## DHCP Server (Dynamic Host Configuration Protocol Server)
 
-Key Benefits:
+A DHCP server is a network service that automatically provides IP addresses and other network configuration details (like subnet mask, gateway, and DNS servers) to devices on a network. This eliminates the need for manually assigning IP addresses to each device..
 
-✅ Automated IP Assignment – Reduces manual configuration and errors.
+### Key Benefits:
 
-✅ Efficient IP Management – Dynamically allocates and reclaims unused IP addresses.
+Automatic IP Assignment – Reduces manual work and prevents IP conflicts.
 
-✅ Scalability – Ideal for networks with a large number of devices.
+Lease Time Management – IP addresses are assigned temporarily (lease) and can be renewed.
 
-✅ Centralized Control – Simplifies administration with a dedicated DHCP server.
+Centralized Configuration – All network settings can be managed from one server.
+
+### How It Works
+
+1. Device Request (DHCP Discover): When a device (like a computer or phone) connects to the network, it sends a broadcast message asking for an IP address.
+
+
+2. DHCP Offer: The DHCP server responds with an available IP address and configuration details.
+
+
+3. DHCP Request: The device accepts the offer and requests to use that IP.
+
+
+4. DHCP Acknowledgement: The DHCP server confirms and leases the IP to the device for a certain period.
 
 Summary
 In this project, I installed and configured the DHCP protocol on Windows Server. I created an IP address pool, allowing the DHCP server to automatically assign IP addresses to client machines, ensuring efficient and dynamic network management.
